@@ -9,7 +9,7 @@ export default function Benefits() {
       <div className={styles.benefits__cta}>
         <h2>Why should you choose <span>Wavebudget</span>?</h2>
         <p>Here are top 4 reasons among many others why you should use Wavebudget wallets as your mobile money/payments option for your transactions.</p>
-        <Button invert={true} link="/#info"><span>Learn more</span></Button>
+        <Button invert={true} link="/#form"><span>Learn more</span></Button>
       </div>
       <div className={styles.benefits__detail}>
         <div>

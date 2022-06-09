@@ -34,7 +34,7 @@ export default function Info() {
         <div className={`d-flex-a ${styles.cards}`}>
           <div>
             <img src={cashAppIcon} alt="cash_app_icon" />
-            <h4>Wavebudget for merchants</h4>
+            <h4><span>WAVEBUDGET</span> for merchants</h4>
             <p>Close the deal and get paid 
                 instantly by Wavebudget, offering your 
                 client payments spread 
@@ -42,7 +42,7 @@ export default function Info() {
             </div>
           <div>
             <img src={clockIcon} alt="clock_icon" />
-            <h4>Wavebudget for merchants</h4>
+            <h4><span>WAVEBUDGET</span> for merchants</h4>
             <p>Close the deal and get paid 
                 instantly by Wavebudget, offering your 
                 client payments spread 
@@ -50,7 +50,7 @@ export default function Info() {
             </div>
           <div>
             <img src={calculatorIcon} alt="calculator_icon" />
-            <h4>Wavebudget for merchants</h4>
+            <h4><span>WAVEBUDGET</span> for merchants</h4>
             <p>Close the deal and get paid 
                 instantly by Wavebudget, offering your 
                 client payments spread 

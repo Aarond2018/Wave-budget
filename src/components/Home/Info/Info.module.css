@@ -67,6 +67,10 @@
   text-align: center;
 }
 
+.cards > div > h4 > span {
+  color: #EF5F5F;
+}
+
 .cards > div > p {
   font-size: 0.8rem;
   text-align: center;
