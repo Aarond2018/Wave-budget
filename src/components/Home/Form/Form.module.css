@@ -1,0 +1,90 @@
+.form_section {
+  margin: 2rem auto !important;
+}
+
+.form_section > p {
+  margin: 1.5rem 0 1rem 0;
+  font-size: 0.8rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.form > div {
+  position: relative;
+}
+
+.form > div > input,
+.form > div > textarea {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border: 1px solid rgba(0,0,0,.3);
+  
+}
+
+.form > div > input:placeholder-shown,
+.form > div > textarea:placeholder-shown {
+  font-size: 0.7rem;
+  font-family: inherit;
+}
+
+.form > div > input:focus,
+.form > div > textarea:focus {
+  outline: none;
+}
+
+.form > div:nth-child(1)::after,
+.form > div:nth-child(2)::after,
+.form > div:nth-child(3)::after {
+  content: "*";
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FE0404;
+
+}
+
+.form_checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form_checkbox > input {
+  width: auto !important;
+  margin-right: 1rem;
+}
+
+.form_checkbox > p {
+  font-size: 0.8rem;
+}
+
+.btn {
+  margin: 2rem auto;
+  display: block;
+  background: #00AFB9;
+  padding: 0.7rem 1.5rem;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #ccc;
+}
+
+@media (max-width: 480px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .form_checkbox {
+    margin-top: 1rem;
+  }
+}

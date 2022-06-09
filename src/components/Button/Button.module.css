@@ -1,0 +1,26 @@
+.link {
+  background: #00AFB9;
+  padding: 0.7rem 1.5rem;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.invert {
+  background: #fff;
+  border: 2px solid #00AFB9;
+  color: #00AFB9
+}
+
+
+@media (max-width: 480px) {
+  .link {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

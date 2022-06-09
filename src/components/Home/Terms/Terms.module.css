@@ -1,0 +1,43 @@
+.terms {
+  margin: 3rem auto;
+}
+
+.terms > h2 {
+  text-align: center;
+  color: #EF5F5F;
+}
+
+.terms > p {
+  text-align: center;
+  color: #00AFB9;
+  margin: 1rem 0;
+}
+
+.terms > p > a {
+  color: inherit;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  grid-gap: 1rem;
+  margin: 2rem 0;
+  color: #00AFB9;
+}
+
+.steps > div > h4 {
+  text-align: center;
+}
+
+.steps > div > p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 520px) {
+  .steps > div {
+    width: 80%;
+    margin: 0.5rem auto;
+  }
+}
