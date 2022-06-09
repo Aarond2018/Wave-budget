@@ -19,10 +19,11 @@
 
 .steps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 9rem));
   grid-gap: 1rem;
   margin: 2rem 0;
   color: #00AFB9;
+  justify-content: space-between;
 }
 
 .steps > div > h4 {
@@ -31,7 +32,7 @@
 
 .steps > div > p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 

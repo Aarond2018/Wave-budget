@@ -5,21 +5,22 @@
 .footer > img {
   width: 10rem;
   display: block;
-  margin: 2rem auto;
+  margin: 2rem 0;
 }
 
 .footer__items {
   margin: 1rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem));
   list-style: none;
   align-items: baseline;
   font-size: 0.9rem;
+  justify-content: space-between;
 }
 
 .footer__items > li > * {
   margin-bottom: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .footer__items > li > ul {
@@ -42,7 +43,7 @@
 
 .social_media > li {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 

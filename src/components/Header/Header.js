@@ -12,11 +12,13 @@ export default function Header() {
     <header className={styles.header}>
       {openModal && <MobileNav setOpenModal={setOpenModal} />}
       <div className={`container d-flex-a ${styles.main_nav}`}>
-        <img src={mainLogo} alt="main-logo" />
-        <ul>
-          <li><a href="#info">Personal</a></li>
-          <li><a href="#info">Business</a></li>
-        </ul>
+        <div>
+          <img src={mainLogo} alt="main-logo" />
+          <ul>
+            <li><a href="#info">Personal</a></li>
+            <li><a href="#info">Business</a></li>
+          </ul>
+        </div>
         <ul>
           <li><a href="#">Developers</a></li>
           <li><a href="#">Company</a></li>
