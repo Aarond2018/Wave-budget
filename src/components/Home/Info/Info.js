@@ -42,19 +42,13 @@ export default function Info() {
             </div>
           <div>
             <img src={clockIcon} alt="clock_icon" />
-            <h4><span>WAVEBUDGET</span> for merchants</h4>
-            <p>Close the deal and get paid 
-                instantly by Wavebudget, offering your 
-                client payments spread 
-                over 4 months by </p>
+            <h4><span>WAVEBUDGET</span> for members</h4>
+            <p>Can’t pay for an invoice in one go? Spread over time to keep cash in your pocket and pay us later, over some months </p>
             </div>
           <div>
             <img src={calculatorIcon} alt="calculator_icon" />
-            <h4><span>WAVEBUDGET</span> for merchants</h4>
-            <p>Close the deal and get paid 
-                instantly by Wavebudget, offering your 
-                client payments spread 
-                over 4 months by </p>
+            <h4><span>WAVEBUDGET</span> for everybody</h4>
+            <p>Whether you're keen to get paid, or to spread out your bill repayments, Wavebudget makes it easy to understand </p>
             </div>
         </div>
       </section>
