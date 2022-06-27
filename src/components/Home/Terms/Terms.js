@@ -10,11 +10,11 @@ export default function Terms() {
       <div className={styles.steps}>
         <div>
           <h4>1</h4>
-          <p>Provide valid information</p>
+          <p>Provide valid information & you must be an income earner</p>
         </div>
         <div>
           <h4>2</h4>
-          <p>No outstanding loan, from any loan company or app</p>
+          <p>No outstanding loan from any loan company or app</p>
         </div>
         <div>
           <h4>3</h4>
@@ -27,7 +27,7 @@ export default function Terms() {
         <div>
           <h4>5</h4>
           <p>Buy!
-Spread the remain 60% over 16 weeks, pay at your convenient time within those periods</p>
+Spread the remain 60% over 4 months, pay at your convenient time within those periods</p>
         </div>
       </div>
     </section>

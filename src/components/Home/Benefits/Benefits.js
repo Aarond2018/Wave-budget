@@ -24,7 +24,7 @@ export default function Benefits() {
         </div>
         <div>
           <h5>0% Interests</h5>
-          <p>We offers our custpmers with all thier transaction and payment on 0% interests, our platform takes nothig away from you.</p>
+          <p>We offers our customers with all their transaction and payment on 0% interests, our platform takes nothig away from you.</p>
           <h1>03</h1>
         </div>
         <div>

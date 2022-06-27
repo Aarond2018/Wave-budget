@@ -54,6 +54,7 @@ export default function Footer() {
           </ul>
         </li>
       </ul>
+      <p>Copyright &copy; 2022 Wavebudget Company. All rights reserved.</p>
     </footer>
   )
 }

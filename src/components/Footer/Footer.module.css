@@ -9,7 +9,7 @@
 }
 
 .footer__items {
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem));
   list-style: none;
@@ -52,9 +52,19 @@
   margin-right: 0.5rem;
 }
 
+.footer > p {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
 
 @media (max-width: 520px) {
   .footer__items {
+    font-size: 0.8rem;
+  }
+
+  .footer > p {
+    text-align: right;
     font-size: 0.8rem;
   }
 }
